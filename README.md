@@ -40,3 +40,24 @@ The body provides more details about the change, explaining **what** was done an
 
 #### Example:
 
+
+---
+
+### **3. Footer**
+The footer is optional and used to reference issues, pull requests, or breaking changes.
+
+#### Example:
+
+If there’s a breaking change, include:
+
+---
+
+## **Best Practices**
+1. **Use the imperative mood**: Write as if giving a command (e.g., "Add" instead of "Added" or "Adds").
+2. **Keep it concise**: Limit the header to 50 characters and the body to 72 characters per line.
+3. **Explain the why**: Use the body to explain the reasoning behind the change.
+4. **Reference related issues or tasks**: Use keywords like `Closes #<issue-number>` to link commits with issue trackers.
+
+---
+
+By following these standards, commit messages become meaningful and provide clear context for every change in the project.
