@@ -40,6 +40,13 @@ The body provides more details about the change, explaining **what** was done an
 
 #### Example:
 
+feat: Add API to update office data
+
+    Added validation for address and location fields to ensure accuracy.
+    Updated error handling to return meaningful messages for missing fields.
+    Included logic to check changes in address fields and auto-update coordinates.
+    This feature helps improve user experience by reducing manual effort.
+
 
 ---
 
@@ -47,6 +54,10 @@ The body provides more details about the change, explaining **what** was done an
 The footer is optional and used to reference issues, pull requests, or breaking changes.
 
 #### Example:
+
+fix: Resolve crash when updating office details
+
+Closes #123
 
 If there’s a breaking change, include:
 
